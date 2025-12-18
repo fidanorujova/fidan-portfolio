@@ -1,0 +1,18 @@
+<header>
+    <nav>
+        <div class="logo">
+            <a href="{{ site.baseurl }}/index.html">FO</a>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="{{ site.baseurl }}/index.html" {% if page.url == "/" or page.title == "Home" %}class="active"{% endif %}>Home</a></li>
+            <li><a href="{{ site.baseurl }}/about.html" {% if page.title == "About" %}class="active"{% endif %}>About</a></li>
+            <li><a href="{{ site.baseurl }}/projects.html" {% if page.title == "Projects" %}class="active"{% endif %}>Projects</a></li>
+            <li><a href="{{ site.baseurl }}/contact.html" {% if page.title == "Contact" %}class="active"{% endif %}>Contact</a></li>
+        </ul>
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>
