@@ -1,0 +1,15 @@
+title: "YOUR NAME"
+description: "A creative developer with a passion for elegant code and stunning visuals"
+url: ""
+baseurl: ""
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+include:
+  - _pages
