@@ -1243,10 +1243,12 @@
         }
 /* easter egg */
 
-.motivational-text:hover #give::before {
+.motivational-text:hover #give::before,
+.motivational-text:active #give::before {
     content: 'gonna ';
 }
 
-.motivational-text:hover #give::after {
+.motivational-text:hover #give::after,
+.motivational-text:active #give::after {
     content: ' you';
 }
