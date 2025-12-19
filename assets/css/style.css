@@ -1241,3 +1241,12 @@
                 justify-content: space-between;
             }
         }
+/* easter egg */
+
+.motivational-text:hover #give::before {
+    content: 'gonna ';
+}
+
+.motivational-text:hover #give::after {
+    content: ' you';
+}
